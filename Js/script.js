@@ -8,6 +8,8 @@
         function calcular(){
             if(isNaN(campoName1.value) || isNaN(campoName2.value)){
                 window.alert("Por favor digite um número válido")
+                campoName1.value = "";
+                campoName2.value = "";
             }
             else{
                 if(!campoName1.value){
